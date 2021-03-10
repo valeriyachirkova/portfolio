@@ -1,0 +1,49 @@
+/**
+Theme Name: Cederdorff Astra Child
+Author: Rasmus Cederdorff
+Author URI: http://cederdorff.com
+Description: Child Theme for Astra
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo+Black&family=Montserrat:wght@600&display=swap');
+
+#scrollTop {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: #a0c0f1;
+	color: black;
+	border-radius: 60px;
+	padding: 0px 18px 0px 18px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 28px;
+	cursor: pointer;
+}
+
+#scrollTop:hover {
+	background-color: #8c7dc3;
+	color: white;
+}
+
+.typed {
+	color:  #8c7dc3;
+}
+
+.my-heading {
+	text-shadow: 3px 2px black;
+}
+
+/* Heading styling */
+h1 {
+	text-shadow: 2px 1px black;
+}
+
+h2 {
+	text-shadow: 2px 1px black;
+}
